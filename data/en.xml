@@ -1,0 +1,16 @@
+<resources>
+  <hero>
+    <title>Welcome</title>
+    <tagline>We build stuff</tagline>
+    <description>We create modern web experiences.</description>
+    <btn_work>
+      <text>See our work</text>
+      <href>/work</href>
+    </btn_work>
+    <btn_contact>
+      <text>Contact us</text>
+      <href>/contact</href>
+    </btn_contact>
+    <home_img_alt>Hero image</home_img_alt>
+  </hero>
+</resources>
