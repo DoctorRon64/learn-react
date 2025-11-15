@@ -1,13 +1,7 @@
 import SkillCard from "./SkillCard"
+import '../scss/skills.css';
 
-const skills = [
-    { title:"C#" , img: "csharp.svg" },
-    { title:"C++" , img: "c-plusplus.svg" },
-    { title:"unity" , img: "unity-original-logo.svg" },
-]
-
-const SkillCat = () => {
-  const items = skills;
+const SkillCat = (items) => {
 
   return (
      <div className="skill-cat">

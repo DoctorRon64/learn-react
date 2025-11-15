@@ -3,6 +3,12 @@ import { createRoot } from "react-dom/client";
 import Hero from "./Hero";
 import SkillCat from "./SkillCat";
 
+const skills = [
+    { title:"C#" , img: "csharp.svg" },
+    { title:"C++" , img: "c-plusplus.svg" },
+    { title:"unity" , img: "unity-original-logo.svg" },
+]
+
 const App = () => (
   <div>
     <Hero
